@@ -1,12 +1,12 @@
-# React + Vite
+# 🧨 Triage Theater
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A snarky, choose-your-own-nightmare game about chronic illness, ER hellscapes, and the bureaucratic horror of trying not to die while everyone around you asks, “Have you tried Miralax?”
 
-Currently, two official plugins are available:
+Built with React + JSON branching logic + emotional damage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧪 Features:
+- Branching medical chaos written in darkly hilarious prose
+- Realistic patient advocacy tools and chronic illness resources
+- Unskippable trauma. Optional cats.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Created by Kristen Alexander based on true events and unholy amounts of Zofran.
