@@ -58,5 +58,94 @@
         "nextId": "main_menu"
       }
     ]
+  },
+  "call_911": {
+    "id": "call_911",
+    "text": [
+      "You call 911. The paramedics show up with a clipboard, zero compassion, and strong 'I peaked in high school' energy. One of them immediately asks if you're pregnant with twins.",
+      "You'd laugh if your stomach weren't actively trying to kill you."
+    ],
+    "choices": [
+      {
+        "text": "\ud83e\udd37 Let them do their thing (bad idea)",
+        "nextId": "paramedic_mess"
+      },
+      {
+        "text": "\ud83d\udce2 Try to explain your condition calmly",
+        "nextId": "explain_anyway"
+      }
+    ],
+    "resources": [
+      {
+        "title": "What to Expect from EMTs (Sadly)",
+        "url": "https://www.ems1.com/ems-advocacy/articles/when-providers-fail-patient-advocacy"
+      }
+    ],
+    "navigation": [
+      {
+        "text": "\ud83d\udd01 Start this story over",
+        "nextId": "start"
+      },
+      {
+        "text": "\ud83c\udfe0 Return to Main Menu",
+        "nextId": "main_menu"
+      }
+    ]
+  },
+  "partner_drive": {
+    "id": "partner_drive",
+    "text": [
+      "Your partner grabs the keys with a grimace. He can barely sit up, but he\u2019s doing his best.",
+      "Every pothole is a medieval torture device. Every stoplight is a spiritual trial."
+    ],
+    "choices": [
+      {
+        "text": "\ud83d\ude91 Change your mind and call 911 instead",
+        "nextId": "call_911"
+      },
+      {
+        "text": "\ud83d\udeec Arrive at the ER barely holding it together",
+        "nextId": "er_arrival_expanded"
+      }
+    ],
+    "resources": [],
+    "navigation": [
+      {
+        "text": "\ud83d\udd01 Start this story over",
+        "nextId": "start"
+      },
+      {
+        "text": "\ud83c\udfe0 Return to Main Menu",
+        "nextId": "main_menu"
+      }
+    ]
+  },
+  "bathroom_floor": {
+    "id": "bathroom_floor",
+    "text": [
+      "You drag out the crusty yoga mat. You lay there in a pool of sweat and Ensure and bargaining.",
+      "Spoiler: you're still going to the ER. You\u2019re just going to suffer longer first."
+    ],
+    "choices": [
+      {
+        "text": "\ud83d\udc80 Pass out dramatically",
+        "nextId": "call_911"
+      },
+      {
+        "text": "\ud83d\udcf1 Film a TikTok about your demise",
+        "nextId": "document_abuse"
+      }
+    ],
+    "resources": [],
+    "navigation": [
+      {
+        "text": "\ud83d\udd01 Start this story over",
+        "nextId": "start"
+      },
+      {
+        "text": "\ud83c\udfe0 Return to Main Menu",
+        "nextId": "main_menu"
+      }
+    ]
   }
 }
