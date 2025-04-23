@@ -9,7 +9,6 @@ import {
 } from 'react-router-dom';
 import StorySelector from './components/StorySelector';
 import AdventureGame from './components/AdventureGame';
-import ComingSoon from './components/ComingSoon';
 import StoryIntro from './components/StoryIntro'; // 🔹 New component for "how it all started"
 
 const router = createBrowserRouter([
@@ -24,10 +23,6 @@ const router = createBrowserRouter([
   {
     path: '/story/:sceneId',
     element: <AdventureGame />,
-  },
-  {
-    path: '/coming-soon/:id',
-    element: <ComingSoon />,
   },
 ]);
 

@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 
 const stories = [
-  { title: "🚑 The Ambulance Argument", note: "In progress — arguing with EMTs takes time." },
+  { title: "🚑 The Ambulance Argument", note: "In progress — EMTs still Googling what a feeding tube is." },
   { title: "😶‍🌫️ 0–2: Medical Gaslighting", note: "Coming soon — it's all in your head, just like this content." },
   { title: "📱 Validation from TikTok", note: "Coming soon — with more credibility than your last doctor." },
   { title: "🧲 The MRI from Hell", note: "Coming soon — assuming the machine doesn’t swallow you first." },
