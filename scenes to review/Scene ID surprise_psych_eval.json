@@ -1,0 +1,22 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \{\
+  "id": "surprise_psych_eval",\
+  "text": "You finally get a bed.\\n\\nIt\'92s not a medical room \'97 it\'92s psych-adjacent. No call button. No IV pole. No monitor. Just four blank walls, a bed with restraints tucked underneath, and a door that locks from the outside.\\n\\nA woman with a clipboard walks in. Not a doctor \'97 at least not your kind. She smiles like she\'92s trying out for a toothpaste commercial.\\n\\n\\"Can you tell me what brought you in today?\\"\\n\\nYou explain: weight loss, vomiting, tube issues, dehydration, pain. She nods, writes nothing down, and asks if you\'92ve ever considered harming yourself.\\n\\n\\"Do you feel safe at home?\\" she says.\\n\\nYou are too stunned to answer.\\n\\nYour medical crisis has been rebranded: *psych eval pending.*",\
+  "choices": [\
+    \{\
+      "text": "Demand to speak to a medical doctor, not psych.",\
+      "nextScene": "demand_real_doctor"\
+    \},\
+    \{\
+      "text": "Go along with it. You need a bed. Any bed.",\
+      "nextScene": "trapped_in_psych"\
+    \}\
+  ]\
+\}\
+}

@@ -1,0 +1,53 @@
+from pathlib import Path
+import json
+
+# Re-define each scene's data since kernel was reset
+scenes = {
+    "start.json": {
+        "start": {
+            "id": "start",
+            "text": [
+                "It didn’t start with an ambulance. It started with pain. Not just any pain — character development pain. The kind that peels your eyelids open at 3 a.m., folds you in half like a crusty yoga mat, and whispers through clenched teeth, ‘Get ready. It’s your turn in the Hunger Games: Chronic Edition.’",
+                "You were a good patient, remember? You did everything they said. The yoga. The fiber. The low-FODMAP sad beige diet that made your soul wither one bland, gluten-free bite at a time. You took the pills they gave you — even when they made everything worse. You sat through lectures from doctors who wouldn’t survive a single day in your body. You smiled while strangers on the internet told you to ‘just manifest better digestion.’",
+                "You stayed calm while a 12-year-old resident explained your own anatomy to you, like he was hosting a middle school science fair called ‘Why Women Are Probably Just Anxious.’",
+                "You’re not a doctor. But you have a PhD in physics. You’ve published papers, launched devices, cracked formulas that would make most people cry. And yet somehow, none of that has prepared you for the horror of… asking for help in an American hospital while visibly sick but not immediately dying.",
+                "You haven’t eaten in three days. A spoonful of yogurt triggered a full-body exorcism. Even water ghosts its way through your system like it’s avoiding eye contact.",
+                "You're curled on the floor, drenched in flop sweat, cradling your abdomen like it's a live grenade. You’ve reached the I-don’t-care-if-it-kills-me-I-just-want-it-to-stop stage of illness. The part where your pride taps out and your sense of time dissolves. The part where you start bargaining with invisible gods, ancient sea monsters, and your toilet. You’ve lived like this for years. Gaslit, dismissed, misdiagnosed, and told you just needed to drink more tea.",
+                "Your boss — the same one who gave you a glowing review while you vomited between meetings — put you on a performance improvement plan after you dared to get worse. Because in capitalism, there’s nothing more offensive than a disabled overachiever who can't keep up.",
+                "Your partner tiptoes into the bathroom. He looks terrified. He’s seen this before, but it never gets easier.",
+                "\"Do you think it’s time to go to the ER?”",
+                "You nod. The Go Bag is already packed. And the part of you that used to feel shame about all this? She’s long gone. You’re running on fumes and fury now."
+            ],
+            "choices": [
+                {
+                    "text": "🚑 Tell him to call 911\nYour legs don’t work and your soul already left the building. Whatever sentient jar of mayonnaise shows up in uniform can deal with it. You’re past dignity. You’re in survival mode.",
+                    "nextId": "call_911"
+                },
+                {
+                    "text": "🚗 Let him drive you\nIt’s only slightly less dangerous than letting a squirrel operate a forklift. He can’t sit upright without a pain flare that could last a week, but he’ll do it anyway, because you’re both stuck in this absurd, broken simulation.",
+                    "nextId": "partner_drive"
+                },
+                {
+                    "text": "🛁 Refuse both. Try to tough it out. Die on the bathroom floor like a true wellness girlie.\nMaybe drag out that crusty yoga mat. Try some deep breathing. Try not to aspirate your own stomach acid. (Spoiler: You’ll call 911 anyway. Just with worse vitals.)",
+                    "nextId": "bathroom_floor"
+                }
+            ],
+            "resources": [],
+            "navigation": [
+                {
+                    "text": "🔁 Start this story over",
+                    "nextId": "start"
+                },
+                {
+                    "text": "🏠 Return to Main Menu",
+                    "nextId": "main_menu"
+                }
+            ]
+        }
+    }
+}
+
+# Save to file
+start_path = Path("/mnt/data/start.json")
+start_path.write_text(json.dumps(scenes["start.json"], indent=2))
+start_path

@@ -1,0 +1,28 @@
+{
+  "scenes": [
+    {
+      "id": "start",
+      "text": "Welcome to the adventure!",
+      "choices": [
+        {
+          "text": "Go left",
+          "nextId": "left"
+        },
+        {
+          "text": "Go right",
+          "nextId": "right"
+        }
+      ]
+    },
+    {
+      "id": "left",
+      "text": "You went left and found a treasure chest!",
+      "isEnding": true
+    },
+    {
+      "id": "right",
+      "text": "You went right and encountered a dragon!",
+      "isEnding": true
+    }
+  ]
+}

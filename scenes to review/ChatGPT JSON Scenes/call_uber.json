@@ -1,0 +1,32 @@
+                                                                                                                                                                                                                                                                  {
+  "call_uber": {
+    "id": "call_uber",
+    "title": "Uber Says No",
+    "text": [
+      "You call an Uber. The app says 3 minutes away.",
+      "When the driver pulls up and sees your condition\u2014sweaty, stained, and barely upright\u2014he locks the doors and rolls down the window two inches.",
+      "'Sorry, I\u2019d have to burn my car,' he says, before speeding off.",
+      "You sit back down on the curb, humiliated and a little amused. Even capitalism has limits, apparently."
+    ],
+    "choices": [
+      {
+        "text": "\ud83d\udcf1 Text your partner for backup",
+        "nextId": "text_partner"
+      },
+      {
+        "text": "\ud83d\udcf8 Film a TikTok: 'Uber refused me but my cat wouldn\u2019t'",
+        "nextId": "film_tiktok_outside"
+      }
+    ],
+    "navigation": [
+      {
+        "text": "\ud83d\udd01 Start this story over",
+        "nextId": "start"
+      },
+      {
+        "text": "\ud83c\udfe0 Return to Main Menu",
+        "nextId": "main_menu"
+      }
+    ]
+  }
+}

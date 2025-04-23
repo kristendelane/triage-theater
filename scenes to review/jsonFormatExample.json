@@ -1,0 +1,51 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \{\
+\'93sceneName\'94: \'93One Last Plea\'94,\
+\'93sceneText\'94: \'94You're slumped in the hallway when you realize it\'92s now or never. The charge nurse just emerged from behind the sliding glass door \'97 clipboard in hand, jaw set like a bouncer at a nightclub.\
+\
+You push yourself upright, steadying against the wall. Your voice is hoarse from hours without water, and your gown is stuck to you with dried sweat and shame. But you clear your throat and ask, as calmly as you can:\
+\
+\'93Can I please speak to the charge nurse?\'94\
+\
+The clipboard stops. She raises an eyebrow. \'93That\'92s me.\'94\
+\
+You explain everything \'97 the hours of waiting, the pain, the lack of fluids, the ignored call buttons, the bed alarm. You tell her you\'92re not trying to be difficult. You just want someone to look at you like a human being.\
+\
+She softens for a moment. Then stiffens again.\
+\
+\'93We\'92re very full tonight.\'94\
+\
+Of course. They always are.\
+\
+But 15 minutes later, a nurse finally brings you a warm blanket, a real emesis bag, and offers to wheel you to an actual gurney instead of a hallway chair.\
+\
+Is it progress? Maybe.\
+\'93,\
+\'93choices\'94: [\
+  \{\'93choiceText\'94: \'93Stay calm and ask again for a room\'94,\
+   \'93sceneToJumpTo\'94: \'93The 12-Hour Hallway Hold\'94\
+  \},\
+\uc0\u10148  Ask when a doctor will see you \u8594  [Scene: The Ghost Doctor Delay]\
+\uc0\u10148  Collapse from exhaustion \u8594  [Scene: Code Brown]\
+],\
+\
+\'93resources\'94: [\
+\{\
+\'93resourceText\'94:\'94Patient Bill of Rights (American Hospital Association)\'94,\
+\'93resourceURL\'94:\'94https://\'85..\'94,\
+\'95 Ask for a Patient Advocate or call the hospital\'92s social work department\
+\'95 @LittleMissDiagnosed on TikTok\
+\'95 Scripts for speaking to medical staff when being dismissed\
+\'95 File a grievance if mistreated or denied care\
+],\
+\'93whatNowOptions\'94:\
+[\
+\'95 \uc0\u55357 \u56580  Start this story over\
+\'95 \uc0\u55357 \u56538  Choose a different storyline\
+]}

@@ -1,0 +1,39 @@
+{
+  "title": "Welcome to the ER: Please Take a Number",
+  "id": "er_story",
+  "scenes": {
+    "start": {
+      "id": "start",
+      "text": [
+        "Welcome to Hellcare. Choose your path."
+      ],
+      "choices": [
+        {
+          "text": "Enter the ER",
+          "nextId": "er_arrival_expanded"
+        },
+        {
+          "text": "Flee immediately",
+          "nextId": "escape_ambulance"
+        }
+      ]
+    },
+    "er_arrival_expanded": {
+      "id": "er_arrival_expanded",
+      "text": [
+        "The fluorescent lights flicker above. You're in a hospital gown that smells like disinfectant and regret...",
+        "The emergency room is a living purgatory. Neither heaven nor hell, but a place designed to make you question whether healing is worth this specific torment."
+      ],
+      "choices": [
+        {
+          "text": "Demand pain relief.",
+          "nextId": "demand_pain_relief"
+        },
+        {
+          "text": "Go nuclear.",
+          "nextId": "nuclear_mode"
+        }
+      ]
+    }
+  }
+}

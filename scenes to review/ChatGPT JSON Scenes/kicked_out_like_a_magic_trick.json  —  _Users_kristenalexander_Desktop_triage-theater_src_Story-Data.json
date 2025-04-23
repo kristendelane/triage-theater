@@ -1,0 +1,62 @@
+{
+  "kicked_out_magic": {
+    "choices": [
+      {
+        "nextId": "text_partner",
+        "text": "📱 Desperately text your partner to pick you up"
+      },
+      {
+        "nextId": "call_uber",
+        "text": "🚫 Try to call an Uber"
+      },
+      {
+        "nextId": "film_tiktok_outside",
+        "text": "📸 Film a TikTok outside the hospital — and let the cats take it from here."
+      }
+    ],
+    "id": "kicked_out_magic",
+    "image": "/images/kicked_out_magic_web.jpg",
+    "navigation": [
+      {
+        "nextId": "start",
+        "text": "🔁 Start this story over"
+      },
+      {
+        "nextId": "main_menu",
+        "text": "🏠 Return to Main Menu"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Patient Bill of Rights (PDF)",
+        "url": "https://www.hhs.gov/sites/default/files/Patient-Bill-of-Rights.pdf"
+      },
+      {
+        "title": "Scripts for Asking Why You’re Being Discharged",
+        "url": "https://www.chronicillnessadvocacy.org/resources"
+      },
+      {
+        "items": [
+          "@LittleMissDiagnosed on TikTok",
+          "@chronically_cheerful",
+          "@spoonieunfiltered",
+          "Facebook: Gastroparesis Support Group",
+          "Facebook: POTS and EDS Warriors",
+          "YouTube: Chronically Jaquie (archived)",
+          "Reddit: r/ChronicIllness",
+          "Reddit: r/AskDocs"
+        ],
+        "title": "Chronic Illness Support"
+      }
+    ],
+    "text": [
+      "One moment, you're in a hospital bed, surrounded by machines that beep their disapproval every time you move. The next? You're being wheeled through the ER like an inconvenience someone finally decided to solve.",
+      "No warning. No discharge papers. No explanation. Just a silent, passive-aggressive parade led by a nurse with the personality of a parking ticket and the moral compass of a wet Band-Aid.",
+      "You're in too much pain to argue. The gurney wheels squeak in rhythm with your heartbeat. Your IV is still half-full, your labs still pending, and your underwear still soaked in a medically unsanctioned cocktail of contrast dye, bile, and trauma.",
+      "Someone mumbles, \"You're stable,\" like it's a spell that makes your chart vanish and your body irrelevant. Like *stable* means *not their problem anymore*.",
+      "They park you by the sliding doors. No ride. No instructions. Just the airlock of humiliation between the automatic doors and the outside world.",
+      "You ask, \"What now?\" No one answers. You half expect David Copperfield to appear and take a bow."
+    ],
+    "title": "Vanished Like a Magic Trick"
+  }
+}

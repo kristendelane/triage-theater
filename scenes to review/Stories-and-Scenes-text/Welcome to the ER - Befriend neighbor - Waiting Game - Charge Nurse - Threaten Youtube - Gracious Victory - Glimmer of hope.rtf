@@ -1,0 +1,76 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;\red87\green96\blue106;
+\red218\green221\blue226;\red142\green190\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\csgray\c0\c0;\cssrgb\c41569\c45098\c49020;
+\cssrgb\c88235\c89412\c90980;\cssrgb\c61961\c79608\c100000;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 // Your fixed befriend_neighbor and charge_nurse scenes\strokec5 \
+  befriend_neighbor: \{\
+    id: \strokec6 'befriend_neighbor'\strokec5 ,\
+    text: [\
+      \strokec6 "You turn to the elderly woman sitting next to you. She's been waiting even longer than you have, clutching a plastic bag of medications."\strokec5 ,\
+      \strokec6 "'Been here long?' you ask, your voice hoarse from disuse."\strokec5 ,\
+      \strokec6 "She looks surprised that someone is speaking to her, then smiles wearily. 'Since 6 this morning. My heart's acting up again.'"\strokec5 ,\
+      \strokec6 "For the next hour, you and Gladys (as you learn is her name) swap hospital horror stories. She tells you about the time she was sent home with pneumonia. You tell her about the doctor who thought your pancreas pain was anxiety."\strokec5 ,\
+      \strokec6 "When a nurse finally calls her name, Gladys squeezes your hand. 'You hang in there, honey. And if they try to send you home, you raise hell.'"\strokec5 ,\
+      \strokec6 "The unlikely friendship makes the waiting slightly more bearable. You're still in pain, still being ignored, but at least you're not alone in the experience."\strokec5 \
+    ],\
+    choices: [\
+      \{ text: \strokec6 'Continue waiting, slightly comforted.'\strokec5 , nextId: \strokec6 'waiting_game'\strokec5  \},\
+      \{ text: \strokec6 'Ask the front desk about your wait time.'\strokec5 , nextId: \strokec6 'charge_nurse'\strokec5  \},\
+    ],\
+  \},\
+\
+  charge_nurse: \{\
+    id: \strokec6 'charge_nurse'\strokec5 ,\
+    text: [\
+      \strokec6 "Bolstered by your conversation with Gladys, you approach the front desk. The receptionist is typing rapidly, not looking up as you stand there waiting to be acknowledged."\strokec5 ,\
+      \strokec6 "You clear your throat. 'Excuse me, I've been waiting for over four hours. Could you tell me how much longer it might be?'"\strokec5 ,\
+      \strokec6 "The receptionist glances up briefly. 'We triage based on medical necessity, not arrival time.'"\strokec5 ,\
+      \strokec6 "Something in you snaps. 'I understand that, but I'm in significant pain, and I'd like to speak with the charge nurse about my situation.'"\strokec5 ,\
+      \strokec6 "The magic words: 'charge nurse.' The receptionist's demeanor shifts slightly. 'I'll see if she's available.'"\strokec5 ,\
+      \strokec6 "Ten minutes later, a tired-looking woman in navy scrubs approaches. 'I'm the charge nurse. What seems to be the problem?'"\strokec5 ,\
+      \strokec6 "You explain your symptoms and the wait time. She listens, nodding occasionally, then checks something on a computer."\strokec5 ,\
+      \strokec6 "'Let me see what I can do,' she says, and for the first time, you feel like someone might actually be trying to help."\strokec5 \
+    ],\
+    choices: [\
+      \{ text: \strokec6 'Thank her and wait more hopefully.'\strokec5 , nextId: \strokec6 'waiting_game'\strokec5  \},\
+      \{ text: \strokec6 'Ask about getting at least some pain relief while waiting.'\strokec5 , nextId: \strokec6 'demand_pain_relief'\strokec5  \},\
+    ],\
+  \},\
+  \
+  \strokec4 // Last scenes in the story data\strokec5 \
+  threaten_youtube: \{\
+    id: \strokec6 'threaten_youtube'\strokec5 ,\
+    text: [\
+      \strokec6 "You smile sweetly through the bathroom door. 'Actually, I've been recording everything for a YouTube documentary series on medical neglect. We're interviewing patients across the country about their experiences.'"\strokec5 ,\
+      \strokec6 "This is a complete lie, but the effect is immediate. You hear urgent whispers outside the door."\strokec5 ,\
+      \strokec6 "'Ms. Rodriguez from administration is on her way down,' someone says. 'She'd like to speak with you personally about your concerns.'"\strokec5 ,\
+      \strokec6 "Ten minutes later, you're not only out of the bathroom but in a private room with an actual doctor reviewing your symptoms. There's even a warm blanket and a genuine apology."\strokec5 ,\
+      \strokec6 "The power of social media and creative storytelling has accomplished what hours of legitimate pain couldn't: actual medical attention."\strokec5 \
+    ],\
+    choices: [\
+      \{ text: \strokec6 'Finally receive proper care.'\strokec5 , nextId: \strokec6 'glimmer_of_hope'\strokec5  \},\
+    ],\
+  \},\
+\
+  gracious_victory: \{\
+    id: \strokec6 'gracious_victory'\strokec5 ,\
+    text: [\
+      \strokec6 "You decide to accept the victory with dignity, rather than pushing your advantage further."\strokec5 ,\
+      \strokec6 "'Thank you,' you say simply. 'I just want to be taken seriously.'"\strokec5 ,\
+      \strokec6 "The tone shifts. There's a hint of genuine remorse from the staff as they escort you to an actual treatment room. Your vitals are taken properly. Someone offers you a warm blanket."\strokec5 ,\
+      \strokec6 "A doctor appears with surprising speed, actually listening as you explain your symptoms. Tests are ordered. Pain medication is discussed without skepticism."\strokec5 ,\
+      \strokec6 "You wonder about all the patients still waiting who don't have the leverage of viral fame. But for now, you focus on your own care, finally receiving the attention you've desperately needed."\strokec5 \
+    ],\
+    choices: [\
+      \{ text: \strokec6 'Proceed with proper medical assessment.'\strokec5 , nextId: \strokec6 'glimmer_of_hope'\strokec5  \},\
+    ],\
+  \},\
+\
+}

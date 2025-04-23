@@ -1,0 +1,46 @@
+{
+    "nurse_lottery": {
+      "id": "nurse_lottery",
+      "text": [
+        "You’re greeted by a nurse whose vibe is somewhere between DMV employee and sleep-deprived cryptid.",
+        "She glances at your chart and says, 'You don’t *look* that sick.'",
+        "You try to decide if it’s worth blowing up now or saving your energy for the next horror."
+      ],
+      "choices": [
+        {
+          "text": "🧃 Ask for a vomit bag and an outlet. Try being civil.",
+          "nextScene": "hours_of_silence_and_bed_alarm"
+        },
+        {
+          "text": "🧨 Snap back with sarcasm — see if that gets you a bed or a security escort.",
+          "nextScene": "waiting_room_showdown"
+        },
+        {
+          "text": "🥲 Quietly crumble and text your partner: 'I can’t do this.'",
+          "nextScene": "emotional_breakdown_google_chat"
+        }
+      ],
+      "resources": [
+        {
+          "label": "Scripts for advocating in hospitals",
+          "url": "https://www.chronicillnessadvocacyandawareness.org/hospital-scripts"
+        },
+        {
+          "label": "Find a patient advocate",
+          "url": "https://www.patientadvocate.org/"
+        }
+      ],
+      "navigation": [
+        {
+          "text": "🔁 Restart",
+          "action": "restart"
+        },
+        {
+          "text": "🏠 Return to Story Selector",
+          "action": "returnToHome"
+        }
+      ],
+      "image": "nurse_lottery_glare.jpg"
+    }
+  }
+  

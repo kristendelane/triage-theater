@@ -1,0 +1,61 @@
+
+[MASTER TRANSITION FILE - UPDATED]
+
+All transition scenes now flow into one of the following:
+- Scene: Vomit Ignored
+- Scene: Kicked Out = Rapid Decline
+- Scene: The Spiral (leading back to the ER)
+- Scene: Finally Get a Room in the ER
+
+Each scene ends with:
+- 🔁 What now? Restart this story / Choose another storyline
+- 📚 Resources for advocacy, communication, and support groups
+
+This structure is ready for markdown linking later.
+
+[Transition Summary:]
+
+1. Any TikTok-related fame (Spoonie Goes Viral, TikTok as Triage, Leverage the Likes, Going Public) → [Scene: Finally Get a Room in the ER]
+
+2. Patient advocate invoked successfully (One Last Plea, Use It While You Can) → [Scene: Finally Get a Room in the ER]
+
+3. Self-advocacy works (Waiting Room Showdown, Medication Roulette, Escalated Request) → [Scene: Finally Get a Room in the ER]
+
+4. Breakdown moments (Emotional Breakdown Brought to You by Google Chat, DM Lifeline) lead to:
+   - Comfort from partner → [Scene: The Advocate Gamble]
+   - Or another shot at advocacy → [Scene: One Last Plea]
+
+5. Crying in public or doing nothing (Bed Alarm Silence, Reluctant Compliance, Give Up and Post TikTok) may lead to:
+   - Scene: The Spiral → Hospital re-entry
+   - Scene: Filing a Grievance → Possible administrative action, eventual readmission
+
+6. Snap & Security involvement (Kicked Out = Rapid Decline) → leads to Scene: The Spiral (sepsis and partner has to return you to ER)
+
+7. Every ending choice now branches into either:
+   - Treatment begins (via room admission)
+   - Treatment denied (via ER ejection)
+   - DIY recovery and eventual decline (via The Spiral)
+
+Next Scene: Vomit Ignored — starts from all successful admissions.
+
+[SCENE: VOMIT IGNORED]
+You finally get a room.
+You think, “Now they'll help me.”
+Wrong.
+You throw up on yourself. No one comes. No call button response. No emesis bag. Just shame and bile and a plastic gown glued to your skin.
+
+🪙 Choices:
+➤ Try to clean yourself up alone → [Scene: Wet Wipes and Despair]
+➤ Call again and wait… and wait… → [Scene: The Button That Doesn’t Work]
+➤ Rip out your IV and walk to the nurses station → [Scene: The Hallway March]
+
+📚 Resources:
+- Patient Bill of Rights (American Hospital Association)
+- Ask for a Patient Advocate or call the hospital’s social work department
+- Scripts for speaking to medical staff when being dismissed
+- @LittleMissDiagnosed on TikTok
+- Facebook groups for tubies, gastroparesis, POTS, TPN, PICCs, and chronic illness support
+
+🔁 What now?
+- 🔄 Start this story over
+- 📚 Choose a different storyline

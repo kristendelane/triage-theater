@@ -1,0 +1,61 @@
+{
+    "start": { ... },
+    "call_911": { ... },
+    "partner_drive": { ... },
+    "bathroom_floor": { ... },
+    "er_arrival_expanded": {
+      "id": "er_arrival_expanded",
+      "text": [
+        "You arrive at the ER in a haze of fluorescent lighting and bodily fluids. The sliding doors wheeze open like they’re reluctantly welcoming a repeat offender.",
+        "No one makes eye contact. The front desk staff is behind glass, tapping slowly at a keyboard like it’s 1998 and they’re composing a haiku.",
+        "You're too dehydrated to cry, but if you could, you'd be sobbing. Instead, you just stand there vibrating, stomach twisting like a Mobius strip of pain.",
+        "They take your name, your vitals, and your hope. You’re told to wait. You try to explain that you can't pee in a cup because you haven't had anything to drink in 18 hours. They give you the cup anyway.",
+        "A tech tries to start an IV. You tell them you need ultrasound guidance. They don’t believe you. Three failed sticks later, they whisper something to another nurse, and suddenly an ultrasound machine appears like it’s been summoned by dark magic.",
+        "You're left under buzzing ceiling lights with a hospital bracelet and a bed alarm you weren’t allowed to refuse. You start to wonder if you’re dying or just inconvenient."
+      ],
+      "choices": [
+        {
+          "text": "📢 Advocate gently but firmly for real care",
+          "nextId": "early_confrontation"
+        },
+        {
+          "text": "📱 Document everything for TikTok. This is wild.",
+          "nextId": "document_abuse"
+        },
+        {
+          "text": "🧓 Talk to the woman next to you who looks worse off",
+          "nextId": "meet_gladys"
+        }
+      ],
+      "resources": [
+        {
+          "title": "Patient Bill of Rights",
+          "url": "https://www.cms.gov/medicare/appeals-and-grievances/your-medicare-rights"
+        },
+        {
+          "title": "Ultrasound-Guided IV Access Tips",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8481621/"
+        },
+        {
+          "title": "How to Advocate for Yourself in the ER",
+          "items": [
+            "Keep written records of symptoms and procedures.",
+            "Request all interactions be documented in your chart.",
+            "Ask directly: 'Can you explain the medical reason for this decision?'"
+          ]
+        }
+      ],
+      "navigation": [
+        {
+          "text": "🔁 Start this story over",
+          "nextId": "start"
+        },
+        {
+          "text": "🏠 Return to Main Menu",
+          "nextId": "main_menu"
+        }
+      ],
+      "image": "er_arrival_mobius_pain.jpg"
+    }
+  }
+  

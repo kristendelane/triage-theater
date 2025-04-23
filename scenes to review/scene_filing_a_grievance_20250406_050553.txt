@@ -1,0 +1,17 @@
+📉 Scene: Filing a Grievance
+
+You call the hospital's patient advocacy hotline. It rings twelve times before someone picks up and transfers you to a voicemail box that’s “not currently accepting messages.”
+
+You try again. You get a different line. This time, a bored voice takes your name and promises someone will call you back “in 5-10 business days.” You are actively bleeding.
+
+You file a written complaint online. The page crashes after you click submit.
+
+A week later, you receive a form letter: “We take your feedback seriously.”
+
+There’s no follow-up. No apology. No accountability.
+
+You end up back in the ER three days later.
+
+But this time, you print your grievance and tape it to your gown like a badge of dishonor.
+
+🔁 Loops to: Scene: Welcome to the ER — Please Take a Number

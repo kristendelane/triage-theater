@@ -1,0 +1,26 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \{\
+  "id": "0-2_intro",\
+  "text": "You\'92re 95 pounds soaking wet, haven\'92t kept down water in 48 hours, and the pain has you hunched over like a Regency orphan dying of consumption. But the triage nurse doesn\'92t even flinch.\\n\\nClick-clack. 'What brings you in today?' she asks, like you\'92re about to request a flu shot and not describe the slow implosion of your entire digestive system.\\n\\nYou mumble something about weight loss, nausea, vomiting, and being unable to eat. She types without looking.\\n\\n'Vitals are stable. Triage score: 2.'\\n\\nYou stare at her. Surely you\'92ve misheard.\\n\\nZero for urgency. Two for 'not actively vomiting on her keyboard.'\\n\\nShe hands you a yellow wristband like a prize at a rigged carnival and gestures toward the waiting room \'97 a fluorescent purgatory of old People magazines and a toddler coughing directly into the HVAC.\\n\\nYour boyfriend limps behind you, wrapped in a heating belt and trauma. You collapse into a chair with your vomit bag and existential dread.\\n\\nNo water. No updates. Just you and your stomach eating itself.",\
+  "choices": [\
+    \{\
+      "text": "Get up and ask how long the wait is \'97 maybe she lost your chart behind a bag of Cheetos.",\
+      "nextScene": "ask_wait_time"\
+    \},\
+    \{\
+      "text": "Lie down across the chairs like the human disaster you are.",\
+      "nextScene": "lay_down"\
+    \},\
+    \{\
+      "text": "Post a TikTok. If healthcare won't validate you, maybe the internet will.",\
+      "nextScene": "tiktok_validation"\
+    \}\
+  ]\
+\}\
+}

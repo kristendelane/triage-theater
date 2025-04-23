@@ -1,0 +1,32 @@
+{
+  "film_tiktok_outside": {
+    "id": "film_tiktok_outside",
+    "title": "The TikTok that Broke the Internet",
+    "text": [
+      "You go live. You\u2019re slumped outside the ER, IV still dangling, and Zayka jumps into frame like a little demon with purpose.",
+      "Bandit handles the camera, his raspy meow providing gritty narration. You talk about what happened. You barely cry. You mostly laugh.",
+      "It takes off in minutes. People are outraged, amused, horrified, and obsessed with your cats.",
+      "You get a DM from a reporter. Another from a Spoonie merch store. Your follower count explodes. Your cats are planning a press tour."
+    ],
+    "choices": [
+      {
+        "text": "\ud83e\uddd1\u200d\ud83d\udcbb Accept the interview and become a voice for change",
+        "nextId": "influencer_ending"
+      },
+      {
+        "text": "\ud83d\udce6 Post a 'SpoonieFur\u2122 drop incoming' teaser",
+        "nextId": "influencer_ending"
+      }
+    ],
+    "navigation": [
+      {
+        "text": "\ud83d\udd01 Start this story over",
+        "nextId": "start"
+      },
+      {
+        "text": "\ud83c\udfe0 Return to Main Menu",
+        "nextId": "main_menu"
+      }
+    ]
+  }
+}
