@@ -9,4 +9,4 @@ Built with React + JSON branching logic + emotional damage.
 - Realistic patient advocacy tools and chronic illness resources
 - Unskippable trauma. Optional cats.
 
-Created by Kristen Alexander based on true events and unholy amounts of Zofran.
+Created by Wren Alexander based on true events and unholy amounts of Zofran.
