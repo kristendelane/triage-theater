@@ -1,6 +1,10 @@
 # 🧨 Triage Theater
 
-A snarky, choose-your-own-nightmare game about chronic illness, ER hellscapes, and the bureaucratic horror of trying not to die while everyone around you asks, “Have you tried Miralax?”
++<p align="center">
++  [🏠 Story Selector](/) • [📖 My Origin Story](/intro)
++</p>
+
+ A snarky, choose-your-own-nightmare game about chronic illness, ER hellscapes, and the bureaucratic horror of trying not to die while everyone around you asks, “Have you tried Miralax?”
 
 Built with React + JSON branching logic + emotional damage.
 

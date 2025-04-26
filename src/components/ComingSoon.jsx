@@ -1,5 +1,6 @@
-// src/components/ComingSoon.jsx
+// src/components/ .jsx
 import { useParams } from "react-router-dom";
+
 
 export default function ComingSoon() {
   const { id } = useParams();

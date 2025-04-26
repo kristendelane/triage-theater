@@ -9,7 +9,8 @@ import {
 } from 'react-router-dom';
 import StorySelector from './components/StorySelector';
 import AdventureGame from './components/AdventureGame';
-import StoryIntro from './components/StoryIntro'; // 🔹 New component for "how it all started"
+import StoryIntro from './components/StoryIntro'; // 🔹 Enter-the-Madness route
+import AmbulanceIntro from './components/AmbulanceIntro';
 
 const router = createBrowserRouter([
   {
@@ -17,8 +18,12 @@ const router = createBrowserRouter([
     element: <StorySelector />, // ✅ Still the landing page
   },
   {
-    path: '/intro',
-    element: <StoryIntro />, // 🔹 Intro route
+    path: '/enter-the-madness',
+    element: <StoryIntro />, // 🔹 Enter-the-Madness route
+  },
+  {
+    path: '/ambulance',
+    element: <AmbulanceIntro />,
   },
   {
     path: '/story/:sceneId',

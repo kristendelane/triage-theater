@@ -10,6 +10,22 @@ export default function StoryIntro() {
         🩺 How It All Began (a.k.a. My Origin Story)
       </h1>
 
+      {/* top nav between title and body */}
+      <nav className="flex space-x-4 justify-center mb-6">
+        <Link
+          to="/"
+          className="inline-block px-4 py-2 text-base font-bold bg-red-900 text-white rounded-xl shadow hover:bg-red-700 transition-all duration-200"
+        >
+          🏠 Story Selector
+        </Link>
+        <Link
+          to="/intro"
+          className="inline-block px-4 py-2 text-base font-bold bg-red-900 text-white rounded-xl shadow hover:bg-red-700 transition-all duration-200"
+        >
+          📖 Story Intro
+        </Link>
+      </nav>
+
       <div className="space-y-4 text-base leading-relaxed">
         <p>
           It didn't start with an ambulance. It started with anti-nausea meds at age ten, a barf bucket by the bed, and a string of half-day school absences no one believed were real. The nurses said "anxiety," the doctors said "nothing," and your teachers said "again?" You started hiding the vomiting because it got you labeled more than it got you help.
