@@ -6,6 +6,7 @@ import './index.css';
 import {
   createBrowserRouter,
   RouterProvider,
+  Navigate,
 } from 'react-router-dom';
 import StorySelector from './components/StorySelector';
 import AdventureGame from './components/AdventureGame';
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: '/story/:sceneId',
     element: <AdventureGame />,
+  },
+  {
+    path: '*',
+    element: <Navigate to="/" replace />, // Redirect unknown paths to home
   },
 ]);
 

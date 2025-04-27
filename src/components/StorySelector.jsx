@@ -39,41 +39,42 @@ const stories = [
 export default function StorySelector() {
   return (
     <div className="min-h-screen bg-erbg text-ertan font-spooky p-6">
-      {/* Container ensuring full-screen height, background, and spooky font */}
+      {/* Page header */}
+      <h2 className="text-2xl font-bold mb-6">🧠 Story Selector</h2>
+      {/* Enter-the-Madness button: intro link */}
       <div className="mb-6 text-center">
-        {/* Primary action: link to the entry-point intro page */}
         <Link
           to="/enter-the-madness"
           className="inline-block px-5 py-3 text-lg font-bold bg-ertan/80 text-white rounded-xl shadow hover:bg-ertan/90 hover:ring-2 hover:ring-red-600 transition-all duration-200"
         >
-          🚪 Enter the Madness
+          🚪 Enter the Madness: How it all began for me
         </Link>
       </div>
-
-      {/* Page header */}
-      <h2 className="text-2xl font-bold mb-6">🧠 Story Selector</h2>
-
-      {/* Secondary navigation: directional links */}
-      <nav className="flex justify-center mb-6">
-        {/* Only show link back to intro or other pages if needed */}
-        <Link
-          to="/intro"
-          className="inline-block px-4 py-2 text-base font-bold bg-ertan/80 text-white rounded-xl shadow hover:bg-ertan/90 transition-all duration-200"
-        >
-          📖 Story Intro
-        </Link>
-      </nav>
 
       {/* Subheader/call to action */}
       <p className="mb-4 text-sm">Choose your chaos. Most stories are still fermenting in medical-grade snark.</p>
 
       {/* Grid layout for story cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {stories.map((story, index) => (
-          // Render each story as a clickable card
-          <Link to={story.title.includes("Ambulance") ? "/ambulance" : `/story/${index}`} key={index} className="block">
-            <div className="bg-ertan/70 p-4 rounded-xl shadow hover:bg-ertan/90 hover:scale-[1.02] hover:ring-2 hover:ring-red-600 transition-all duration-200">
-              {/* Story title and note inline */}
+        {stories.map((story, index) => {
+          if (story.title.includes("Ambulance")) {
+            // Only Ambulance story is clickable
+            return (
+              <Link to="/ambulance" key={index} className="block">
+                <div className="bg-ertan/70 p-4 rounded-xl shadow hover:bg-ertan/90 hover:scale-[1.02] hover:ring-2 hover:ring-red-600 transition-all duration-200">
+                  <p className="text-sm font-semibold">
+                    {story.title}
+                    {story.note && (
+                      <span className="italic text-xs text-ertan/80">: {story.note}</span>
+                    )}
+                  </p>
+                </div>
+              </Link>
+            );
+          }
+          // Other stories are not linked yet
+          return (
+            <div key={index} className="bg-ertan/70 p-4 rounded-xl shadow transition-all duration-200">
               <p className="text-sm font-semibold">
                 {story.title}
                 {story.note && (
@@ -81,8 +82,8 @@ export default function StorySelector() {
                 )}
               </p>
             </div>
-          </Link>
-        ))}
+          );
+        })}
       </div>
     </div>
   );

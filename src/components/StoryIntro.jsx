@@ -9,13 +9,13 @@ export default function StoryIntro() {
     <div className="min-h-screen bg-erbg text-ertan font-spooky p-6">
       {/* Outer container with full viewport height, themed background, and primary font */}
       {/* Center inner content and constrain max width for readability */}
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-3xl mx-auto px-4">
         {/* Page heading/title */}
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
           🩺 How It All Began (a.k.a. My Origin Story)
         </h1>
 
-        {/* Navigation: single snarky button returning to story selector */}
+        {/* Top nav: allow returning to the story selector */}
         <nav className="flex justify-center mb-6">
           <Link
             to="/"
@@ -26,7 +26,7 @@ export default function StoryIntro() {
         </nav>
 
         {/* Narrative content container: vertical spacing, readable line height, centered prose width */}
-        <div className="space-y-4 text-base leading-relaxed max-w-prose mx-auto">
+        <div className="space-y-4 text-base leading-relaxed max-w-prose mx-auto px-4">
           <p>
             It didn't start with an ambulance. It started with anti-nausea meds at age ten, a barf bucket by the bed, and a string of half-day school absences no one believed were real. The nurses said "anxiety," the doctors said "nothing," and your teachers said "again?" You started hiding the vomiting because it got you labeled more than it got you help.
           </p>
@@ -68,19 +68,13 @@ export default function StoryIntro() {
           </p>
         </div>
 
-        {/* Bottom navigation: back to selector and forward to story content */}
-        <div className="mt-8 flex justify-center space-x-4">
+        {/* Navigation: single back-to-selector button under the title */}
+        <div className="mt-8 flex justify-center">
           <Link
             to="/"
             className="inline-block px-6 py-3 text-base font-bold bg-red-900 text-white rounded-xl shadow hover:bg-red-700 transition-all duration-200"
           >
-            🏠 Story Selector
-          </Link>
-          <Link
-            to="/story/start"
-            className="inline-block px-6 py-3 text-base font-bold bg-red-900 text-white rounded-xl shadow hover:bg-red-700 transition-all duration-200"
-          >
-            🚪 Enter the Madness
+            🔙 Back to Story Selector
           </Link>
         </div>
       </div>

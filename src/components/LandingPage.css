@@ -1,0 +1,80 @@
+/* src/components/LandingPage.css */
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/skeleton_landing_art.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-color: #1a1a1a;
+    overflow: hidden;
+  }
+  
+  .clickable-wheel {
+    width: 350px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: rgba(255, 107, 107, 0.7);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: absolute;
+    z-index: 10;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .clickable-wheel:hover {
+    transform: translate(-50%, -50%) scale(1.05);
+    background-color: rgba(255, 87, 87, 0.9);
+    box-shadow: 0 0 15px rgba(255, 107, 107, 0.7);
+  }
+  
+  .clickable-call-button {
+    cursor: pointer;
+    padding: 1rem 2rem;
+    background-color: rgba(78, 115, 223, 0.8);
+    color: #fff;
+    border-radius: 0.75rem;
+    transition: all 0.2s ease;
+    position: absolute;
+    z-index: 10;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .clickable-call-button:hover {
+    background-color: rgba(46, 89, 217, 0.9);
+    box-shadow: 0 0 15px rgba(78, 115, 223, 0.7);
+  }
+  
+  .sticky-note {
+    background-color: #fffa87;
+    padding: 0.75rem 1.25rem;
+    border: 1px dashed #e0d600;
+    border-radius: 0.35rem;
+    font-style: italic;
+    font-weight: bold;
+    transform: rotate(-2deg);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  

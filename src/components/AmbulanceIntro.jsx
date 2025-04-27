@@ -44,9 +44,7 @@ export default function AmbulanceIntro() {
         They blink. They write "female abdominal pain - r/o psych."Then they gesture to the gurney like it's a park bench and say, "You can get up, right?"
         </p>
         <p>
-          You stare at them, sunken-eyed and sweating, legs like overcooked
-          spaghetti. "You gonna help me with this, or what?" you croak, your
-          voice a blend of fury and gastric acid.
+        You’re too weak to stand, but they just look at you. So you rage-crawl your way up onto the gurney solo. The room’s spinning. You’re seconds from puking. You pause halfway up, locking eyes with one of them like: “You gonna help, or just vibe there like a sentient jar of mayonnaise?”
         </p>
         <p>They don't move.</p>
         <p>
