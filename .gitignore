@@ -1,25 +1,5 @@
-# Node modules
 node_modules/
-
-# Dist build (Vite)
 dist/
-
-# Mac system files
-.DS_Store
-
-# Archive folders
-archive/
-
-# Editor settings
-.vscode/
-.idea/
-
-# Log files
-*.log
-
-# Backup files
-*.zip
-*.tar.gz
-
-# Environment variables
-.env
+backup.sh
+public/
+.storybook/
