@@ -1,0 +1,25 @@
+{
+  "id": "scene4_discharge_or_detention",
+  "title": "Scene 4: Discharge or Detention",
+  "text": "It\u2019s been four days.\n\nYou\u2019ve been silent, compliant, maybe even chemically obedient. You haven\u2019t seen a mirror. You haven\u2019t heard your own voice. But something inside you still whispers: you exist.\n\nToday they tell you there\u2019s a 'meeting.' No one asks if you feel better. No one tells you who signed your hold.\n\nYou're seated across from a clipboard. A nurse you've never seen takes notes while pretending not to.\n\nYou\u2019re told your behavior has 'improved.' You\u2019re told there\u2019s a possibility you\u2019ll be released today. You\u2019re told this is your 'last chance' to cooperate.\n\nBut you know better now. You\u2019ve seen the cracks. You know this system wasn\u2019t built to discharge people like you. It was built to forget them.",
+  "choices": [
+    {
+      "id": "accept_discharge",
+      "text": "Nod and say thank you. Pretend it was all just a misunderstanding.",
+      "nextSceneId": "scene5_home_suffering",
+      "result": "You\u2019re discharged. No meds. No follow-up. You\u2019re given a trash bag of your belongings and a list of local shelters."
+    },
+    {
+      "id": "ask_questions",
+      "text": "Ask who filed the hold, who reviewed it, who signed the extension.",
+      "nextSceneId": "scene5_backlash",
+      "result": "You\u2019re told to calm down. The nurse flags you for 'increased agitation.' The review is 'paused.'"
+    },
+    {
+      "id": "refuse_to_speak",
+      "text": "Stay silent. There\u2019s nothing left to say.",
+      "nextSceneId": "scene5_hospital_storage",
+      "result": "They take your silence as compliance. You\u2019re quietly placed under extended observation, indefinitely."
+    }
+  ]
+}

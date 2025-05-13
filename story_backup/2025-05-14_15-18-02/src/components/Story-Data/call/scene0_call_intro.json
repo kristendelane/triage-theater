@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene0_call_intro",
+  "title": "📞 The Call Begins",
+  "text": "You answer the phone. Or maybe it answers you. The line crackles not with static, but memory. Someone is waiting on the other end.",
+  "choices": [
+    {
+      "id": "continue_call",
+      "text": "🧠 Listen carefully.",
+      "next_scene": "scene1_call_memory"
+    }
+  ],
+  "resources": {
+    "links": [],
+    "replay_options": [
+      {
+        "text": "🔁 Restart Story",
+        "action": "restart"
+      },
+      {
+        "text": "🏠 Return to Story Selector",
+        "action": "return_home"
+      }
+    ]
+  }
+}

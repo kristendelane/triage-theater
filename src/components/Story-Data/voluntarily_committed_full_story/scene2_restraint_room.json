@@ -1,0 +1,25 @@
+{
+  "id": "scene2_restraint_room",
+  "title": "Scene 2: Restraint Room",
+  "text": "You barely speak above a whisper. Your body is cold. Your mouth is dry. You still haven't seen a doctor. Asking questions is considered aggressive. Crying too loud is considered a threat.\n\nYou approach the nurse\u2019s station again to ask about food, or your meds, or anything\u2014just something to anchor you to a timeline.\n\nA tech blocks your path. He\u2019s built like a fridge, tattoos coiling up his neck. He says nothing. Just points at a sign: *'Staff Only Past This Point.'*\n\nYou back away. You feel nauseous. You reach for the trash can.\n\nHe grabs your hair and drags you toward the bathroom. You're too stunned to resist. He shoves your head over a toilet. It\u2019s not clean.\n\nLater, you\u2019re told you were \u2018disruptive.\u2019 You're stripped of your clothing again and placed in the restraint room. Three-point. Padded table. Soundproof walls. And before the door shuts, someone whispers in your ear: *\u201cYou\u2019ll be here forever.\u201d*",
+  "choices": [
+    {
+      "id": "shut_down",
+      "text": "Shut down completely. No more crying. No more talking.",
+      "nextSceneId": "scene3_force_feed",
+      "result": "They call you 'quiet and cooperative' in the next shift handoff."
+    },
+    {
+      "id": "plead",
+      "text": "Plead with the tech to please tell someone what happened.",
+      "nextSceneId": "scene3_force_feed",
+      "result": "You're told to 'watch your tone' or the restraints will come back."
+    },
+    {
+      "id": "rage_snap",
+      "text": "Snap. Shout that this is abuse. Demand a lawyer.",
+      "nextSceneId": "scene3_force_feed",
+      "result": "Security is called. You're sedated before you can finish your sentence."
+    }
+  ]
+}

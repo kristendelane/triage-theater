@@ -1,0 +1,25 @@
+{
+  "id": "scene2_choice",
+  "title": "Scene 2: How You Respond",
+  "text": "Your hand still aches. The bleeding has stopped, but something deeper has opened. Not in your skin\u2014in your resolve.\n\nYou start thinking clearly for the first time since you entered this place.\n\nThree choices burn in your mind:\n\nBurn it all down. Let someone else take over. Or build something better from the inside out.",
+  "choices": [
+    {
+      "id": "burn_it",
+      "text": "Burn it down. Sabotage. Revenge. Anarchy.",
+      "nextSceneId": "scene3_post_it_fuck_you",
+      "result": "You smile. It\u2019s time to bleed the system from the inside."
+    },
+    {
+      "id": "hand_it_off",
+      "text": "Hand the responsibility to another patient.",
+      "nextSceneId": "scene3_post_it_fuck_you",
+      "result": "They betray you. You\u2019re flagged as unstable."
+    },
+    {
+      "id": "build_it_right",
+      "text": "Rebuild it yourself. Slowly. With allies.",
+      "nextSceneId": "scene3_post_it_fuck_you",
+      "result": "You begin making a map. Post-It by Post-It."
+    }
+  ]
+}

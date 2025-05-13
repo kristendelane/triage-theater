@@ -1,0 +1,25 @@
+{
+  "id": "scene0_call",
+  "title": "Scene 0: The Call",
+  "text": "You called the non-emergency line because you felt a childhood flashback rising like acid in your throat. You weren't screaming. You weren't violent. You said the words clearly: 'I\u2019m not safe to drive, but I need help. Can someone bring me to the hospital?'\n\nThey send squad cars. No ambulance. Two cops step out, hands already hovering over their tasers like you just pulled a machete from your purse.\n\nYou barely get a word out before you're thrown to the asphalt. Your face meets the gravel. Your arms are wrenched behind your back. You cry out\u2014not screaming, just stunned.\n\nYou're cuffed, stuffed into the back of a patrol car, and taken to a place you will not remember fondly. Not because you were unstable\u2014but because you were too stable to be silent.\n\nThis is what they call voluntary commitment.",
+  "choices": [
+    {
+      "id": "cry_out",
+      "text": "\u201cI don\u2019t understand\u2014please tell me what\u2019s happening.\u201d",
+      "nextSceneId": "scene1_intake",
+      "result": "Your plea is ignored. The cuffs tighten."
+    },
+    {
+      "id": "stay_silent",
+      "text": "Stay quiet. Let them process you like roadkill.",
+      "nextSceneId": "scene1_intake",
+      "result": "They log 'non-verbal, non-compliant' into your file anyway."
+    },
+    {
+      "id": "cry",
+      "text": "Cry. Just cry. Maybe someone will help.",
+      "nextSceneId": "scene1_intake",
+      "result": "You triggered a 'psychiatric escalation.' Security is alerted."
+    }
+  ]
+}
