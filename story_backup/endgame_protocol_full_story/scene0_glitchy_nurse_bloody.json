@@ -1,0 +1,25 @@
+{
+  "id": "scene0_glitchy_nurse",
+  "title": "Scene 0: The Tablet",
+  "text": "The nurse doesn\u2019t look at you. She rolls in a wheeled Pixie cart that sounds like it\u2019s dragging a body behind it, and hands you the hospital-issued tablet like it\u2019s a used napkin.\n\nIt\u2019s cracked. The glass is jagged. The corner catches your palm\u2014deep enough to bleed, but not enough for anyone to care.\n\n'Just sign the forms,' she says.\n\nYou look at the screen. It\u2019s frozen on a form labeled: *INPATIENT CONSENT \u2013 Voluntary/Involuntary (System Will Decide)*\n\nYou swipe. It crashes. You tap. It buzzes. Your blood smears across the touchscreen. You try to hand it back.\n\nThe nurse sighs. 'It does that. Just keep trying.'\n\nYou\u2019re bleeding on the intake device and she tells you it\u2019s normal.\n\nYou realize, in that moment, **you\u2019re not a person here. You\u2019re a crash report waiting to happen.**",
+  "choices": [
+    {
+      "id": "sign_anyway",
+      "text": "Sign the form. Sign anything. It\u2019s what they want.",
+      "nextSceneId": "scene1_realization",
+      "result": "The blood makes the screen unresponsive. You end up signing a blank form. No one cares."
+    },
+    {
+      "id": "refuse_and_bleed",
+      "text": "Hand it back and show her your bleeding hand.",
+      "nextSceneId": "scene1_realization",
+      "result": "'We don\u2019t do band-aids,' she says. Then marks 'noncompliant' in your file."
+    },
+    {
+      "id": "smear_the_screen",
+      "text": "Wipe your blood across the screen. Let it glitch for real.",
+      "nextSceneId": "scene1_realization",
+      "result": "The form crashes. Security is notified 'in case of tech tampering.'"
+    }
+  ]
+}

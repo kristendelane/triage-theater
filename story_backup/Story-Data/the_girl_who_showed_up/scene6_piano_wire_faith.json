@@ -1,0 +1,39 @@
+{
+  "scene_id": "scene6_piano_wire_faith",
+  "title": "🎼 Piano Wire Faith",
+  "text": "The hospital lights are off now. Your room glows only from the IV monitor and the hallway's failed attempt at silence.\n\nShe’s gone home. Mitya too. You’re alone, but not abandoned.\n\nYou scroll through old photos.\nSticker art. Devil wings. That one blurry picture of you holding the coconut water like a wine glass.\n\nAnd the name.\nThe one you didn’t know was yours until she handed it to you without permission, like a key.\n\nWren.\n\nYou think about the costume.\nNot the wings.\nT...
+  "choices": [
+    {
+      "id": "return_home",
+      "text": "🏠 Return to Story Selector",
+      "next_scene": "story_selector"
+    },
+    {
+      "id": "restart_arc",
+      "text": "🔁 Restart 'The Girl Who Showed Up'",
+      "next_scene": "scene0_the_girl_who_showed_up"
+    }
+  ],
+  "resources": {
+    "links": [
+      {
+        "title": "How to Support Friends Escaping Abuse",
+        "url": "https://www.thehotline.org/support-others/help-a-friend/"
+      },
+      {
+        "title": "Understanding Gender Nonconformity and Body Autonomy",
+        "url": "https://www.gendergp.com/what-is-gender-dysphoria/"
+      }
+    ],
+    "replay_options": [
+      {
+        "text": "🔁 Restart Story",
+        "action": "restart"
+      },
+      {
+        "text": "🏠 Return to Story Selector",
+        "action": "return_home"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "scene0_glitchy_nurse",
+  "title": "Scene 0: The Glitchy Nurse",
+  "text": "The nurse rolls in with a wheeled Pixie cart and a cracked hospital tablet. She looks overworked, undertrained, and two minutes from snapping. Without even making eye contact, she hands you the tablet to 'sign a few things.'\n\nThe screen flickers. The touchscreen registers every touch twice. The casing is sharp. You try to brace it, but the edge slices your hand open.\n\n'It's fine,' she says. 'It does that sometimes.'\n\nYou stare at your hand. Bleeding. Trembling. Not just from the cut\u2014but from what it means.",
+  "choices": [
+    {
+      "id": "try_to_sign",
+      "text": "Try to sign the form anyway.",
+      "nextSceneId": "scene1_realization",
+      "result": "Your blood smears across the touchscreen. It crashes. You\u2019re told to try again."
+    },
+    {
+      "id": "say_nothing",
+      "text": "Say nothing and hand it back.",
+      "nextSceneId": "scene1_realization",
+      "result": "She shrugs. Logs you as 'noncompliant.'"
+    },
+    {
+      "id": "tell_her_you\u2019re_bleeding",
+      "text": "Tell her you\u2019re bleeding.",
+      "nextSceneId": "scene1_realization",
+      "result": "'Not my department,' she mutters, walking away."
+    }
+  ]
+}

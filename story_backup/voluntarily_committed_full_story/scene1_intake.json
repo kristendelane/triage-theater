@@ -1,0 +1,25 @@
+{
+  "id": "scene1_intake",
+  "title": "Scene 1: Intake",
+  "text": "You're uncuffed just long enough for them to ask if you've ever felt like hurting yourself. You're not even sitting. You're still crying. Your body is in shock, but the nurse's eyes are already scanning a checklist like she's shopping for diagnoses.\n\nYou try to explain that you called for help because you were scared of *how bad things might get*\u2014but that's not what she hears. She hears danger. She hears risk. She hears 'liability.'\n\nBefore you can finish a sentence, you're labeled as a 5150: involuntary hold. No doctor. No full psych eval. Just a scribbled signature and a label stapled to your soul.\n\nYou're stripped of your clothes. Your belongings are sealed in a plastic bag. Your phone is gone. You're handed hospital socks and a paper-thin gown that doesn\u2019t close right. You ask how long you\u2019ll be here. They don\u2019t answer.",
+  "choices": [
+    {
+      "id": "ask_doctor",
+      "text": "Ask when you'll see a doctor.",
+      "nextSceneId": "scene2_restraint_room",
+      "result": "The nurse glares at you. 'Back away from the desk or you\u2019ll regret it.'"
+    },
+    {
+      "id": "try_to_sleep",
+      "text": "Try to sleep and keep a low profile.",
+      "nextSceneId": "scene2_restraint_room",
+      "result": "A guard sits across from your room all night. You can't even close your eyes."
+    },
+    {
+      "id": "refuse_gown",
+      "text": "Refuse the paper gown. You're cold, you're scared, you're still a person.",
+      "nextSceneId": "scene2_restraint_room",
+      "result": "You're flagged as combative. Security is called anyway."
+    }
+  ]
+}
