@@ -1,0 +1,25 @@
+{
+  "id": "scene1_realization",
+  "title": "Scene 1: Realization",
+  "text": "You sit with your bleeding hand. The tablet is still glowing faintly. A UI prompt flickers: 'Please confirm your reason for admission: anxiety, psychosis, malingering, or other.'\n\nYou try to hit the back arrow. It reboots.\n\nThis isn't just a bad interface. It's the entire system. Glitched. Cracked. Uncaring. And it's already rewriting your narrative.\n\nYou realize that the form was never meant to help. It was meant to label. To log you in and lock you down.",
+  "choices": [
+    {
+      "id": "accept_the_label",
+      "text": "Select 'anxiety' and move on.",
+      "nextSceneId": "scene2_choice",
+      "result": "The screen freezes. You\u2019re logged in as someone else."
+    },
+    {
+      "id": "smash_the_tablet",
+      "text": "Throw the tablet to the floor.",
+      "nextSceneId": "scene2_choice",
+      "result": "Security is called. You are marked as 'escalated'."
+    },
+    {
+      "id": "refuse_and_breathe",
+      "text": "Close your eyes. Refuse. Plan.",
+      "nextSceneId": "scene2_choice",
+      "result": "You inhale slowly. The system won\u2019t win."
+    }
+  ]
+}

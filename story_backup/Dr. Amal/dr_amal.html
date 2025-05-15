@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Rounds — The Fall of Dr. Amal (Expanded)</title>
+  <script src="https://cdn.jsdelivr.net/gh/tmedwards/sugarcube-2/dist/format.js"></script>
+  <style>
+    body {
+      background-color: black;
+      color: #ff6b6b;
+      font-family: monospace;
+      padding: 20px;
+    }
+    #passages {
+      max-width: 800px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <tw-story>
+    <tw-passagedata pid="1" name="Discharge Note" startnode="true">
+      Dr. Amal is 33 years old. Young enough to glow with arrogance, old enough to know better. But her brilliance is surface-deep — a mind made of bullet points and borrowed protocols.
+
+      She rounds on you with two ducklings in tow, neither old enough to rent a car.
+
+      Your abdomen is bloated. Your pain is at a 9. You haven’t peed in 18 hours.
+
+      "Your vitals are stable. We’ll discharge you today. Try drinking more fluids. We don’t see a surgical issue here."
+
+      She signs the chart, smiles like it's a favor, and disappears.
+
+      What do you do?
+
+      * [[Plead with her to reconsider.->Plead]]
+      * [[Stay silent. Let it happen.->Silent]]
+      * [[Stand up and demand imaging.->Demand]]
+    </tw-passagedata>
+
+    <tw-passagedata pid="2" name="Plead">
+      She scribbles "anxious affect" in your chart.  
+      "If we listen to every sob story, we’ll never get anything done."
+
+      You’re sent home with a stack of papers and no antiemetics.  
+      You vomit blood two hours after discharge.  
+      You collapse three days later, seizing and aspirating on your own bile in the bathroom.  
+      Your partner finds you blue, pulseless, and brain-dead.
+
+      Machines keep your body alive for two days. Dr. Amal never calls back.
+
+      [[Continue->Scene 2 Choices]]
+    </tw-passagedata>
+
+    <tw-passagedata pid="3" name="Silent">
+      You’re discharged with the words “medically stable” echoing like a death knell.
+
+      You try to manage at home. On day two, your abdomen balloons.  
+      You call the ER. They suggest urgent care.  
+      You die in your sleep from peritonitis. Alone. In your own bed.
+
+      The coroner writes: “Death by preventable neglect.”  
+      The hospital seals the file.
+
+      [[Continue->Scene 2 Choices]]
+    </tw-passagedata>
+
+    <tw-passagedata pid="4" name="Demand">
+      Security is called. You’re labeled “aggressive.”  
+      They shove Ativan through your IV.  
+      You don’t remember leaving the hospital.
+
+      You wake up in a psych hold.  
+      Labs were never run.  
+      You code in the holding cell from sepsis.
+
+      [[Continue->Scene 2 Choices]]
+    </tw-passagedata>
+
+    <tw-passagedata pid="5" name="Scene 2 Choices">
+      Dr. Amal gets a call from Risk Management. Your name rings a bell.
+
+      She Googles your obituary while eating a salad.  
+      She winces — but only because the photo is unflattering.
+
+      "Case closed. Patient noncompliant."
+
+      But that pain under her ribs? It's growing.
+
+      What does she do next?
+
+      * [[Push through. Patients come first.->IgnorePain]]
+      * [[Make a quick appointment with her favorite GI.->GIDismissal]]
+      * [[Go to urgent care anonymously.->UrgentCareIgnored]]
+    </tw-passagedata>
+  
+<tw-passagedata pid="6" name="IgnorePain">
+  She doubles her clinic hours and cancels her own labs.  
+  The pain gets worse. Her assistant asks if she’s okay.  
+  Amal barks, “Fine.” No one asks again.
+
+  One night, she vomits mid-consult.  
+  A nurse offers to call someone. Amal refuses.
+
+  She collapses during rounds, hitting her head on a vitals cart.
+
+  [[Collapse leads to shared room->Scene3_AmalDies]]
+</tw-passagedata>
+
+<tw-passagedata pid="7" name="GIDismissal">
+  She books a visit with Dr. Myles — someone she’s referred to for years.  
+  He smiles like he knows better. “Probably stress. You’ve always overextended.”
+
+  He doesn't touch her.  
+  Notes say: “Appears anxious, no acute findings.”
+
+  Amal stares at the wall while waiting for test orders. None come.
+
+  She leaves with a prescription for Pepcid and shame.
+
+  Three weeks later, she’s admitted through the ER after collapsing at Whole Foods.
+
+  [[Admitted to hallway hell->Scene3_AmalDies]]
+</tw-passagedata>
+
+<tw-passagedata pid="8" name="UrgentCareIgnored">
+  She registers anonymously to avoid bias.  
+  The PA guesses: “Maybe gallbladder? Maybe not.”
+
+  She waits six hours without triage.  
+  Her vitals are never checked.
+
+  She hears her name mispronounced over the intercom. “Al-mall?”  
+  Then they skip her entirely.
+
+  She stumbles out, dizzy and ignored.  
+  Collapses at home. Paramedics take her to her old hospital.
+
+  [[And they don’t recognize her.->Scene3_AmalDies]]
+</tw-passagedata>
+
+
+<tw-passagedata pid="9" name="Scene3_AmalDies">
+  She’s placed in a shared room — a windowless corner meant for “overflow.”
+
+  Her roommate? A woman Amal once called “non-urgent.”  
+  That woman smiles and presses her call light every hour — for both of them. No one comes.
+
+  Amal’s gown is soaked with bile.  
+  A junior resident charts “patient appears stable, resting” without entering the room.
+
+  * [[Try to flag the nurse.->IgnoredToDeath]]
+  * [[Text her old team. No one replies.->GhostedToDeath]]
+  * [[Lie still, invisible.->AloneAndErased]]
+</tw-passagedata>
+
+<tw-passagedata pid="10" name="IgnoredToDeath">
+  A tech tells her, “We’ll be back with pain meds.” They never return.
+
+  At 2:13 AM, she codes.  
+  It takes 12 minutes before anyone notices.
+
+  Her chart reads: “Manipulative behavior observed. Delay in care appropriate.”
+
+  [[Final Report->Postmortem]]
+</tw-passagedata>
+
+<tw-passagedata pid="11" name="GhostedToDeath">
+  She texts five colleagues. No response.  
+  One replies after her death with “Who dis?”
+
+  She codes during shift change.  
+  Her roommate watches, whispering: “Now you understand.”
+
+  [[Final Report->Postmortem]]
+</tw-passagedata>
+
+<tw-passagedata pid="12" name="AloneAndErased">
+  She closes her eyes and thinks of her med school honors ceremony.
+
+  Her body is cold before the rapid response arrives.  
+  The crash cart has no working defib leads.
+
+  The last note on her chart says “Patient sleeping.”
+
+  [[Final Report->Postmortem]]
+</tw-passagedata>
+
+<tw-passagedata pid="13" name="Postmortem">
+  Her body is wheeled to the basement morgue and mislabeled.
+
+  Her voicemail leaks:  
+  > “I don’t have time for another psych case. Just discharge her.”
+
+  🧾 Headline: “Doctor Dies of Neglect in Same Hospital She Once Ruled.”
+
+  TikTok trend: **#AmalEffect**
+
+  She is removed from her department’s website.  
+  Her research is retracted.  
+  Her license revoked posthumously.
+
+  **RESOURCES:**
+  - <a href="https://www.healthinaging.org/tools-and-tips/how-talk-your-doctor" target="_blank">How to Talk to Your Doctor</a>
+  - <a href="https://www.patientadvocate.org/explore-our-resources/patient-self-advocacy/" target="_blank">Patient Self-Advocacy Toolkit</a>
+  - <a href="https://www.kevinmd.com/blog/2022/03/how-to-document-symptoms-to-be-taken-seriously.html" target="_blank">Documenting Symptoms for Credibility</a>
+
+  **SCRIPTS:**
+  - “Can you document that you’re refusing this request?”
+  - “Please note my pain level and lack of intervention.”
+  - “I want this charted: I am not stable.”
+
+  [[Restart Story->Discharge Note]]
+  [[Return to Story Selector->/stories]]
+</tw-passagedata>
+
+</tw-story>
+</body>
+</html>

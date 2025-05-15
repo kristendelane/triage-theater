@@ -1,5 +1,6 @@
 // src/components/LandingPage.jsx
 
+import HitboxOverlay from './components/HitboxOverlay';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './LandingPage.css';
