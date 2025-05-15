@@ -1,0 +1,45 @@
+/* src/components/LandingPage.css */
+
+.landing-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #1a1a1a;
+  background-image: url('/assets/skeleton-hitboxes.png'); /* make sure this file exists in public/assets */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+  color: white;
+}
+
+.clickable-wheel {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 35px;
+  background-color: rgba(255, 107, 107, 0.7);
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.clickable-call-button {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.sticky-note {
+  background: yellow;
+  padding: 1rem;
+  font-weight: bold;
+  border: 2px dashed black;
+}

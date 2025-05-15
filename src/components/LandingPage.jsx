@@ -1,7 +1,7 @@
 // src/components/LandingPage.jsx
 
-import HitboxOverlay from './components/HitboxOverlay';
 import React from 'react';
+import HitboxOverlay from './HitboxOverlay';
 import { useNavigate } from 'react-router-dom';
 import './LandingPage.css';
 
@@ -10,21 +10,23 @@ function LandingPage() {
 
   return (
     <div className="landing-container">
-      {/* Clickable area for the wheel */}
-      <div
-        className="clickable-wheel"
-        onClick={() => navigate('/story-selector')}
-      >
-        Spin the Wheel of Medical Madness
-      </div>
+      <HitboxOverlay />
 
-      {/* Clickable area for the call button */}
-      <div
-        className="clickable-call-button"
-        onClick={() => navigate('/enter-the-madness')}
-      >
-        <div className="sticky-note">
-          How Madness Began — Enter Here...
+      <div className="ui-layer">
+        <div
+          className="clickable-wheel"
+          onClick={() => navigate('/story-selector')}
+        >
+          Spin the Wheel of Medical Madness
+        </div>
+
+        <div
+          className="clickable-call-button"
+          onClick={() => navigate('/enter-the-madness')}
+        >
+          <div className="sticky-note">
+            How Madness Began — Enter Here...
+          </div>
         </div>
       </div>
     </div>
