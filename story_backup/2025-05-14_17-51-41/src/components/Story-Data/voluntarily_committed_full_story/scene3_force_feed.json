@@ -1,0 +1,25 @@
+{
+  "id": "scene3_force_feed",
+  "title": "Scene 3: Force Feeding",
+  "text": "You aren\u2019t hungry. You haven\u2019t been since the screaming started. The food is cold, the room is fluorescent, and your paper gown feels like it\u2019s trying to peel your skin off.\n\nYou tell them, gently, 'No thank you.' You slide the plate forward untouched. You\u2019re polite. Respectful. It doesn\u2019t matter.\n\nA staff member\u2014built like a prison guard, bald and brimming with something unprocessed\u2014grabs you.\n\nHe throws you down. Knees to your chest. Arm across your throat. He holds your nose shut until your mouth opens to breathe.\n\nThen he crams eggs\u2014rubbery, lukewarm, tasting of metal and salt\u2014into your mouth with his bare hand.\n\n'You\u2019ll eat,' he says. 'Or you\u2019ll choke.'\n\nYou swallow, sobbing.\n\nLater they call it a 'nutritional intervention.' Your chart notes 'non-compliance with meal plan.'",
+  "choices": [
+    {
+      "id": "disassociate",
+      "text": "Go limp. Escape into your mind.",
+      "nextSceneId": "scene4_discharge_or_detention",
+      "result": "They call you 'quiet and cooperative' in the next shift handoff."
+    },
+    {
+      "id": "report_it",
+      "text": "Ask to file a grievance with the patient advocate.",
+      "nextSceneId": "scene4_discharge_or_detention",
+      "result": "You're told, 'He\u2019s been here for years. You won\u2019t win this one.'"
+    },
+    {
+      "id": "scream",
+      "text": "Scream. Tell them this is abuse.",
+      "nextSceneId": "scene4_discharge_or_detention",
+      "result": "Security is called. Again. Sedation follows."
+    }
+  ]
+}

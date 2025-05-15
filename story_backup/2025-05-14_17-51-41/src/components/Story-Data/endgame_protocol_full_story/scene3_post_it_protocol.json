@@ -1,0 +1,37 @@
+{
+  "id": "scene3_post_it_fuck_you",
+  "title": "Scene 3: Post-It Protocol",
+  "text": "The tablet cut your hand.\nThe nurse didn\u2019t notice.\nAnd now you\u2019ve decided the only thing sharper than that tablet\u2026 is your pen.\n\nYou steal a stack of hospital Post-Its from the supply cart. They smell like antiseptic and resignation.\n\nYou find hiding places: under the keyboard, inside a vitals folder, behind the community whiteboard.\nThey\u2019ll find them eventually. Maybe not today. But eventually.\n\nYou write what they won\u2019t chart.",
+  "choices": [
+    {
+      "id": "note1",
+      "text": "\u201cYou missed more than my vein.\u201d",
+      "nextSceneId": "scene4_dnr_unlock",
+      "result": "You tuck it into a nurse\u2019s pocket clipboard. She doesn\u2019t notice until lunch."
+    },
+    {
+      "id": "note2",
+      "text": "\u201cStill think it\u2019s just anxiety?\u201d",
+      "nextSceneId": "scene4_dnr_unlock",
+      "result": "It\u2019s stuck to the crash cart. Right next to the Ativan drawer."
+    },
+    {
+      "id": "note3",
+      "text": "\u201cI vomited the trust out of me and you called it noncompliance.\u201d",
+      "nextSceneId": "scene4_dnr_unlock",
+      "result": "You wedge it under the call button no one ever answers."
+    },
+    {
+      "id": "note4",
+      "text": "\u201cNice chart. Shame if someone redlined the truth into it.\u201d",
+      "nextSceneId": "scene4_dnr_unlock",
+      "result": "It\u2019s folded into the incident report folder. The one that always stays blank."
+    },
+    {
+      "id": "note5",
+      "text": "\u201cYou forgot me. I won\u2019t.\u201d",
+      "nextSceneId": "scene4_dnr_unlock",
+      "result": "You stick it to the inside of your own file. Just in case someone opens it again."
+    }
+  ]
+}
