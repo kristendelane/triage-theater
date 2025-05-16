@@ -1,0 +1,71 @@
+/* Background image scaling and layout */
+.skeleton-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  animation: fadeIn 2s ease-in-out;
+  background-color: black;
+}
+
+/* Canvas sits directly on top of image */
+.hitbox-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+/* Blood splatter overlay triggered on hover */
+.blood-splatter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  animation: splatterFade 1s ease-in-out forwards;
+}
+
+@keyframes splatterFade {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  100% { opacity: 0.7; }
+}
+
+/* Eye socket special effect */
+.eye-overlay {
+  position: absolute;
+  top: 290px;
+  left: 1170px;
+  z-index: 25;
+  pointer-events: none;
+  text-align: center;
+}
+
+.eye-overlay img {
+  width: 100px;
+}
+
+.eye-text {
+  font-family: 'Courier New', monospace;
+  font-size: 0.8rem;
+  color: red;
+  text-shadow: 0 0 3px black;
+  margin-top: -8px;
+}
+
+/* Smooth black fade from nothingness */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    background-color: black;
+  }
+  100% {
+    opacity: 1;
+    background-color: black;
+  }
+}

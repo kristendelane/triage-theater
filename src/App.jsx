@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
 import StorySelector from './components/StorySelector';
 import AdventureGame from './components/AdventureGame';
+import PolygonBuilder from './components/PolygonBuilder'; // ✅ NEW
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
 
         {/* Adventure Game */}
         <Route path="/enter-the-madness" element={<AdventureGame />} />
+
+        {/* Polygon Builder Tool */}
+        <Route path="/polygon-builder" element={<PolygonBuilder />} /> {/* ✅ NEW */}
       </Routes>
     </Router>
   );

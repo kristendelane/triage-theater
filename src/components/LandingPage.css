@@ -1,13 +1,37 @@
+/* src/components/LandingPage.css */
+
 .landing-container {
-  width: 100vw;
-  height: 100vh;
+  position: relative;
+  width: 1536px;
+  height: 1024px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
   background-color: black;
-  background-image: url('../assets/skeleton-hitboxes.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+.skeleton-image {
+  width: 1536px;
+  height: 1024px;
+  object-fit: contain;
+  opacity: 0;
+  animation: fadeInImage 2s ease-in-out forwards;
+}
+
+@keyframes fadeInImage {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+  0% { background-color: black; }
+  100% { background-color: black; }
+}
+
+canvas {
+  user-select: none;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
